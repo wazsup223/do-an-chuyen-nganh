@@ -2,7 +2,7 @@
 $servername = "localhost"; // Thay localhost bằng địa chỉ máy chủ MySQL nếu cần thiết
 $username = "root"; // Thay your_username bằng tên đăng nhập của bạn
 $password = ""; // Thay your_password bằng mật khẩu của bạn
-$dbname = "doanweb"; // Thay your_database bằng tên cơ sở dữ liệu bạn đã tạo
+$dbname = "csdldienthoai"; // Thay your_database bằng tên cơ sở dữ liệu bạn đã tạo
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
